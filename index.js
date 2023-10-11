@@ -14,7 +14,7 @@ const data = {
     "target_id": "user_DOKVD1U3L031",
     "target_name": "sami@instatus.com",
     "location": "105.40.62.95",
-    "occurred_at": "2022-01-05T14:31:13.607Z",
+    "occurred_at": new Date(),
     "metadata": {
       "redirect": "/setup",
       "description": "User login failed.",
