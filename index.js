@@ -39,6 +39,10 @@ const sendPostRequest = () => {
     });
 };
 
+app.get('/', (_, res) => {
+  res.json({"isWorking":"true"})
+})
+
 setInterval(sendPostRequest, 30000);
 
 app.listen(3000, () => {
