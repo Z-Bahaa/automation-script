@@ -31,7 +31,7 @@ const options = {
 
 const sendPostRequest = () => {
 
-  const data = {
+   data = {
     "event": {  
       "actor_id": "user_3VG742j9PUA2",
       "actor_name": "zeyad bahaa",
